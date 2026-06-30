@@ -1,0 +1,110 @@
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# =====================
+# IDE / Editor
+# =====================
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+
+# =====================
+# Environment Variables
+# =====================
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env
+!.env.example
+
+# =====================
+# Node.js / Backend
+# =====================
+backend/node_modules/
+backend/dist/
+backend/build/
+backend/coverage/
+backend/.npm
+backend/.eslintcache
+
+# =====================
+# Flutter / Dart / Frontend
+# =====================
+frontend/.dart_tool/
+frontend/.flutter-plugins
+frontend/.flutter-plugins-dependencies
+frontend/.packages
+frontend/.pub-cache/
+frontend/.pub/
+frontend/build/
+frontend/.metadata
+frontend/ios/Pods/
+frontend/ios/.symlinks/
+frontend/android/.gradle/
+frontend/android/local.properties
+frontend/android/key.properties
+frontend/ios/Flutter/Flutter.framework
+frontend/ios/Flutter/Flutter.podspec
+frontend/ios/Flutter/Generated.xcconfig
+frontend/ios/Flutter/app.flx
+frontend/ios/Flutter/app.zip
+frontend/ios/Flutter/flutter_assets/
+frontend/ios/Flutter/flutter_export_environment.sh
+frontend/ios/ServiceDefinitions.json
+frontend/ios/Runner/GeneratedPluginRegistrant.*
+frontend/android/GeneratedPluginRegistrant.java
+frontend/android/app/debug/
+frontend/android/app/profile/
+frontend/android/app/release/
+frontend/**/*.g.dart
+frontend/**/*.freezed.dart
+
+# =====================
+# Firebase
+# =====================
+frontend/.firebase/
+frontend/firebase-debug.log
+frontend/firebasedebug.log
+frontend/ui-debug.log
+firebase-functions-debug.log
+
+# =====================
+# Docker
+# =====================
+*.pid
+*.seed
+
+# =====================
+# Secrets / Keys
+# =====================
+*.pem
+*.key
+*.p12
+secrets/
+gcloud-service-account.json
+firebase-adminsdk-*.json
+google-services.json
+GoogleService-Info.plist
+
+# =====================
+# Build / Output
+# =====================
+*.apk
+*.aab
+*.ipa
+*.tar.gz
+*.zip
